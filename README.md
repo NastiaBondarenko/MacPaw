@@ -7,7 +7,7 @@ I create a service with information about all the near-Earth objects.
 
 It contains a three controller:
     a route / - with a proper json return {“hello”:“MacPaw Internship 2022!“};
-    a route /neo/hazardous - display all DB entries which contain potentially hazardous asteroids
+    a route /neo/hazardous - display all DB entries which contain potentially hazardous asteroids;
     a route /neo/fastest?hazardous=(true|false) - order by fastest asteroid, with a hazardous parameter, where true means is hazardous
 
 
